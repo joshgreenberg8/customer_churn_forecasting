@@ -2,6 +2,15 @@
 
 A project in which I developed and tuned a model using customer data to predict churn for retention offer targeting. The final model exceeded the target metric with a 0.93 ROC-AUC score against the test set (target score 0.88).
 
+The data was provided and consists of 4 files, all located in the 'final_provider' folder:
+
+- `contract.csv` — contract information
+- `personal.csv` — the client's personal data
+- `internet.csv` — information about Internet services
+- `phone.csv` — information about telephone services
+
+Analysis and model development/testing, along with commentary is contained within the 'final_solution_report.ipynb' file.
+
 I faced challenges with making decisions about features to add and remove, and how to handle potential data leaks with customer begin/end dates while preserving the valuable information. I am happy with my decision to remove the dates after calculating customer account age as an additional feature.
 
 I had difficulty with my models overfitting during grid search, but my project leader pointed out the likely effect that upsampled data was having on my cross validation folds. This was resolved by the implementation of a pipeline process to resample the data for each fold.
