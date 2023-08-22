@@ -9,7 +9,7 @@ The data was provided and consists of 4 files, all located in the 'final_provide
 - `internet.csv` — information about Internet services
 - `phone.csv` — information about telephone services
 
-Analysis and model development/testing, along with commentary is contained within the 'final_solution_report.ipynb' file.
+Analysis and model development/testing, along with commentary is contained within the '[final_solution_report.ipynb](https://github.com/joshgreenberg8/customer_churn_forecasting/blob/main/final_solution_report.ipynb)' file.
 
 I faced challenges with making decisions about features to add and remove, and how to handle potential data leaks with customer begin/end dates while preserving the valuable information. I am happy with my decision to remove the dates after calculating customer account age as an additional feature.
 
