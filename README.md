@@ -2,7 +2,7 @@
 
 A project in which I developed and tuned a model using customer data to predict churn for retention offer targeting. The final model exceeded the target metric with a 0.93 ROC-AUC score against the test set (target score 0.88).
 
-The data was provided and consists of 4 files, all located in the 'final_provider' folder:
+The data was provided in 4 files, all located in the 'final_provider' folder:
 
 - `contract.csv` — contract information
 - `personal.csv` — the client's personal data
